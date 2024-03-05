@@ -6027,11 +6027,21 @@ select {
     padding-top: 7px;
     padding-bottom: 7px;
     border-radius: 8px;
+    margin-top: 15px;
 }
 
 .uploadfilediv{
-    border: 1px solid;
-    max-width: 450px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #fff7e6;
+    border-radius: 12px;
+    background-color: #fff7e6;
+    max-width: 550px;
     margin-top: 150px;
     font-family: 'Varela Round';
+    padding: 20px 20px 20px 20px
+}
+
+.cursorchange{
+    cursor:pointer;
 }
