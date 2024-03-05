@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Varela+Round&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="{{url_for('static', filename='fonts/hehe.woff2')}}"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="{{url_for('static', filename='fonts/fonts.woff2')}}"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="{{url_for('static', filename='fonts/fonts.woff2')}}"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=16&amp;q=75 16w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=32&amp;q=75 32w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=48&amp;q=75 48w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=64&amp;q=75 64w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=96&amp;q=75 96w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=128&amp;q=75 128w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=256&amp;q=75 256w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=360&amp;q=75 360w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=384&amp;q=75 384w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=414&amp;q=75 414w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=512&amp;q=75 512w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=1536&amp;q=75 1536w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-portrait.5fcdea2f.jpg&amp;w=3840&amp;q=75 3840w"
+      imagesizes="(min-width: 552px) 32rem, calc(100vw - 2.5rem)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffigma.8944909e.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffigma.8944909e.png&amp;w=128&amp;q=75 2x"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsketch.406f2e62.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsketch.406f2e62.png&amp;w=128&amp;q=75 2x"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftailwindcss.b1392828.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftailwindcss.b1392828.png&amp;w=96&amp;q=75 2x"
+      fetchpriority="high"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='something.css')}}"
+      data-precedence="next"
+    />
+    <link
+      rel="stylesheet"
+      href="./Jane - Developer, entrepreneur, and general technology enthusiast_files/b9b07d7c9a83825f.css"
+      data-precedence="next"
+    />
+    <link
+      rel="preload"
+      href="./Jane - Developer, entrepreneur, and general technology enthusiast_files/webpack-896546915792f926.js"
+      as="script"
+      fetchpriority="low"
+    />
+    <script
+      src="./Jane - Developer, entrepreneur, and general technology enthusiast_files/fd9d1056-7528fcadf39f878b.js"
+      async=""
+    ></script>
+    <script
+      src="./Jane - Developer, entrepreneur, and general technology enthusiast_files/864-df9d3a2377fe3106.js"
+      async=""
+    ></script>
+    <script
+      src="./Jane - Developer, entrepreneur, and general technology enthusiast_files/main-app-8f13c08947745519.js"
+      async=""
+    ></script>
+    <title>
+      SketchArt
+    </title>
+    <meta
+      name="description"
+      content="I&#39;m a passionate developer, entrepreneur, and general technology enthusiast living in San Francisco. I&#39;ve worked with hundreds of startups to help them develop their ideas into profitable businesses."
+    />
+    <meta name="next-size-adjust" />
+    <script
+      src="./Jane - Developer, entrepreneur, and general technology enthusiast_files/polyfills-c67a75d1b6f99dc8.js"
+      nomodule=""
+    ></script>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-button {
+        border: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+        outline: none;
+        width: 100%;
+      }
+      .ismanga .ismanga-button--primary {
+        background-color: #b4183d;
+        color: #fff;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots {
+        background-color: #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 8px;
+        position: relative;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots::before,
+      .ismanga .ismanga-button--primary .ismanga-button__dots::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots::before {
+        animation: dotCollisionBefore 2s infinite ease-in;
+        background-color: #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 8px;
+        left: -12px;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots::after {
+        animation: dotCollisionAfter 2s infinite ease-in;
+        animation-delay: 1s;
+        background-color: #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 8px;
+        left: 12px;
+        width: 8px;
+      }
+      @keyframes dotCollisionBefore {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-16px);
+        }
+      }
+      @keyframes dotCollisionAfter {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(16px);
+        }
+      }
+      .ismanga .ismanga-button--primary-active,
+      .ismanga .ismanga-button--primary:hover,
+      .ismanga .ismanga-button--primary:active,
+      .ismanga .ismanga-button--primary:focus {
+        background-color: #901330;
+      }
+      .ismanga .ismanga-button--primary-outline {
+        background-color: #fff;
+        border: 1px solid #b4183d;
+        color: #b4183d;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots {
+        background-color: #b4183d;
+        border-radius: 50%;
+        color: #b4183d;
+        height: 8px;
+        position: relative;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::before,
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::before {
+        animation: dotCollisionBefore 2s infinite ease-in;
+        background-color: #b4183d;
+        border-radius: 50%;
+        color: #b4183d;
+        height: 8px;
+        left: -12px;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::after {
+        animation: dotCollisionAfter 2s infinite ease-in;
+        animation-delay: 1s;
+        background-color: #b4183d;
+        border-radius: 50%;
+        color: #b4183d;
+        height: 8px;
+        left: 12px;
+        width: 8px;
+      }
+      @keyframes dotCollisionBefore {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-16px);
+        }
+      }
+      @keyframes dotCollisionAfter {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(16px);
+        }
+      }
+      .ismanga .ismanga-button--primary-outline-active,
+      .ismanga .ismanga-button--primary-outline:hover,
+      .ismanga .ismanga-button--primary-outline:active,
+      .ismanga .ismanga-button--primary-outline:focus {
+        background-color: #b4183d;
+        color: #fff;
+      }
+      .ismanga .ismanga-button--secondary {
+        background-color: #e0e1e2;
+        color: #000;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots {
+        background-color: #000;
+        border-radius: 50%;
+        color: #000;
+        height: 8px;
+        position: relative;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::before,
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::before {
+        animation: dotCollisionBefore 2s infinite ease-in;
+        background-color: #000;
+        border-radius: 50%;
+        color: #000;
+        height: 8px;
+        left: -12px;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::after {
+        animation: dotCollisionAfter 2s infinite ease-in;
+        animation-delay: 1s;
+        background-color: #000;
+        border-radius: 50%;
+        color: #000;
+        height: 8px;
+        left: 12px;
+        width: 8px;
+      }
+      @keyframes dotCollisionBefore {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-16px);
+        }
+      }
+      @keyframes dotCollisionAfter {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(16px);
+        }
+      }
+      .ismanga .ismanga-button--secondary-active,
+      .ismanga .ismanga-button--secondary:hover,
+      .ismanga .ismanga-button--secondary:active,
+      .ismanga .ismanga-button--secondary:focus {
+        background-color: #b3b4b4;
+      }
+      .ismanga .ismanga-button__dots-stage {
+        display: flex;
+        justify-content: center;
+        line-height: 14px;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-select__option {
+        cursor: pointer;
+      }
+      .ismanga .ismanga-select__control {
+        cursor: pointer;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .control-panel-view-content__select-label {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 4px;
+        margin-top: 4px;
+      }
+      .ismanga .control-panel-view-content__btn-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+      }
+      .ismanga .control-panel-view-content__btn:first-child {
+        margin-bottom: 12px;
+      }
+      .ismanga .control-panel-view-content__btn {
+        border-radius: 4px;
+        padding: 8px 16px;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .control-panel {
+        background: #fff;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+        box-shadow: 0 0 5px #b4b4b4;
+        color: #000;
+        font-family: Helvetica;
+        font-weight: normal;
+        left: 0;
+        line-height: 1.4;
+        padding: 16px;
+        position: relative;
+        transform: translateX(0);
+        transition: transform 0.5s;
+      }
+      .ismanga .control-panel--hidden {
+        transform: translateX(-169px);
+      }
+      .ismanga .control-panel .control-panel__collapse-btn {
+        background-color: #b4183d;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        color: #fff;
+        cursor: pointer;
+        font-family: "Bangers";
+        font-size: 20px;
+        padding: 8px 16px;
+        position: absolute;
+        right: -69px;
+        top: 56px;
+        transform: rotate(90deg);
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-spinner {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+      }
+      .ismanga .ismanga-spinner__inner {
+        animation: spin 2s linear infinite;
+        border-color: rgba(0, 0, 0, 0.04);
+        border-radius: 50%;
+        border-style: solid;
+        border-top-color: #b4183d;
+      }
+      .ismanga .ismanga-spinner__inner-text {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 4px;
+        color: #b4183d;
+        font-size: 16px;
+        margin-top: 8px;
+        text-align: center;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+          1px 1px 0 #fff;
+        word-break: break-word;
+      }
+      .ismanga .ismanga-spinner__inner-text a {
+        color: #b4183d;
+        font-weight: bold;
+        text-decoration: underline dotted #b4183d;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-button {
+        border: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+        outline: none;
+        width: 100%;
+      }
+      .ismanga .ismanga-button--primary {
+        background-color: #b4183d;
+        color: #fff;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots {
+        background-color: #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 8px;
+        position: relative;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots::before,
+      .ismanga .ismanga-button--primary .ismanga-button__dots::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots::before {
+        animation: dotCollisionBefore 2s infinite ease-in;
+        background-color: #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 8px;
+        left: -12px;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary .ismanga-button__dots::after {
+        animation: dotCollisionAfter 2s infinite ease-in;
+        animation-delay: 1s;
+        background-color: #fff;
+        border-radius: 50%;
+        color: #fff;
+        height: 8px;
+        left: 12px;
+        width: 8px;
+      }
+      @keyframes dotCollisionBefore {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-16px);
+        }
+      }
+      @keyframes dotCollisionAfter {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(16px);
+        }
+      }
+      .ismanga .ismanga-button--primary-active,
+      .ismanga .ismanga-button--primary:hover,
+      .ismanga .ismanga-button--primary:active,
+      .ismanga .ismanga-button--primary:focus {
+        background-color: #901330;
+      }
+      .ismanga .ismanga-button--primary-outline {
+        background-color: #fff;
+        border: 1px solid #b4183d;
+        color: #b4183d;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots {
+        background-color: #b4183d;
+        border-radius: 50%;
+        color: #b4183d;
+        height: 8px;
+        position: relative;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::before,
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::before {
+        animation: dotCollisionBefore 2s infinite ease-in;
+        background-color: #b4183d;
+        border-radius: 50%;
+        color: #b4183d;
+        height: 8px;
+        left: -12px;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--primary-outline .ismanga-button__dots::after {
+        animation: dotCollisionAfter 2s infinite ease-in;
+        animation-delay: 1s;
+        background-color: #b4183d;
+        border-radius: 50%;
+        color: #b4183d;
+        height: 8px;
+        left: 12px;
+        width: 8px;
+      }
+      @keyframes dotCollisionBefore {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-16px);
+        }
+      }
+      @keyframes dotCollisionAfter {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(16px);
+        }
+      }
+      .ismanga .ismanga-button--primary-outline-active,
+      .ismanga .ismanga-button--primary-outline:hover,
+      .ismanga .ismanga-button--primary-outline:active,
+      .ismanga .ismanga-button--primary-outline:focus {
+        background-color: #b4183d;
+        color: #fff;
+      }
+      .ismanga .ismanga-button--secondary {
+        background-color: #e0e1e2;
+        color: #000;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots {
+        background-color: #000;
+        border-radius: 50%;
+        color: #000;
+        height: 8px;
+        position: relative;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::before,
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::before {
+        animation: dotCollisionBefore 2s infinite ease-in;
+        background-color: #000;
+        border-radius: 50%;
+        color: #000;
+        height: 8px;
+        left: -12px;
+        width: 8px;
+      }
+      .ismanga .ismanga-button--secondary .ismanga-button__dots::after {
+        animation: dotCollisionAfter 2s infinite ease-in;
+        animation-delay: 1s;
+        background-color: #000;
+        border-radius: 50%;
+        color: #000;
+        height: 8px;
+        left: 12px;
+        width: 8px;
+      }
+      @keyframes dotCollisionBefore {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(-16px);
+        }
+      }
+      @keyframes dotCollisionAfter {
+        0%,
+        50%,
+        75%,
+        100% {
+          transform: translateX(0);
+        }
+        25% {
+          transform: translateX(16px);
+        }
+      }
+      .ismanga .ismanga-button--secondary-active,
+      .ismanga .ismanga-button--secondary:hover,
+      .ismanga .ismanga-button--secondary:active,
+      .ismanga .ismanga-button--secondary:focus {
+        background-color: #b3b4b4;
+      }
+      .ismanga .ismanga-button__dots-stage {
+        display: flex;
+        justify-content: center;
+        line-height: 14px;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-click-translate-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 4px solid #b4183d;
+        height: 100%;
+        width: 100%;
+      }
+      .ismanga .ismanga-click-translate-overlay__translate-btn {
+        border-radius: 4px;
+        display: flex;
+        font-size: 20px;
+        justify-content: center;
+        left: 16px;
+        padding: 12px 16px;
+        position: absolute;
+        top: 16px;
+        width: auto;
+      }
+      .ismanga .ismanga-click-translate-overlay__disabled-text {
+        color: #fff;
+        font-size: 20px;
+        padding-top: 16px;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-screenshot-translation-content {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+      .ismanga .ismanga-screenshot-translation-content__warning {
+        align-items: center;
+        background-color: #6c0e24;
+        box-sizing: border-box;
+        color: #fff;
+        display: flex;
+        font-size: 22px;
+        height: 80px;
+        justify-content: center;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+      }
+      .ismanga
+        .ismanga-screenshot-translation-content__warning
+        .ismanga-spinner__inner {
+        border-top-color: #fff;
+      }
+      .ismanga .ismanga-screenshot-translation-content__spinner-container {
+        margin-left: 12px;
+        position: relative;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-text-bubble-content__bubble {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+      }
+      .ismanga .ismanga-text-bubble-content__bubble p {
+        color: #000;
+        line-height: 1.2;
+        margin: 0;
+        padding: 4px;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+          1px 1px 0 #fff;
+        white-space: normal;
+      }
+      .ismanga .ismanga-text-bubble-content__bubble p:hover {
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0 0 0 2px #b4183d;
+        cursor: pointer;
+        z-index: 9999;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga .ismanga-interaction-content__overlay {
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: #b4183d;
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        z-index: 1;
+      }
+      .ismanga .ismanga-interaction-content__translate-button {
+        background-color: #b4183d;
+        border: 0;
+        border-radius: 2px;
+        box-shadow: none;
+        color: #fff;
+        font-family: "Comic Neue";
+        outline: none;
+        padding: 6px 10px;
+      }
+      .ismanga .ismanga-interaction-content__translate-button:hover {
+        background-color: #901330;
+      }
+    </style>
+    <style>
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga {
+        font-family: "Comic Neue";
+      }
+      .ismanga *,
+      .ismanga *::before,
+      .ismanga *::after {
+        box-sizing: border-box;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        padding: 0;
+      }
+      .ismanga body,
+      .ismanga h1,
+      .ismanga h2,
+      .ismanga h3,
+      .ismanga h4,
+      .ismanga p,
+      .ismanga ul[class],
+      .ismanga ol[class],
+      .ismanga li,
+      .ismanga figure,
+      .ismanga figcaption,
+      .ismanga blockquote,
+      .ismanga dl,
+      .ismanga dd {
+        margin: 0;
+      }
+      .ismanga body {
+        line-height: 1.5;
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+      }
+      .ismanga ul[class],
+      .ismanga ol[class] {
+        list-style: none;
+      }
+      .ismanga a:not([class]) {
+        text-decoration-skip-ink: auto;
+      }
+      .ismanga img {
+        display: block;
+        max-width: 100%;
+      }
+      .ismanga input,
+      .ismanga button,
+      .ismanga textarea,
+      .ismanga select {
+        font: inherit;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .ismanga * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .ismanga.ismanga-preloader {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #b4183d;
+        font-size: 16px;
+        overflow: hidden;
+        position: absolute;
+        text-align: left;
+      }
+      .ismanga.ismanga-preloader div {
+        padding: 8px;
+      }
+      .ismanga.ismanga-preloader span {
+        animation: slowshow 2s ease 0s infinite;
+        color: #b4183d;
+        font-size: 28px;
+        opacity: 0;
+      }
+      @keyframes slowshow {
+        100% {
+          opacity: 1;
+        }
+      }
+      .ismanga.ismanga-control-panel-container {
+        left: 0;
+        position: fixed;
+        top: 40%;
+        z-index: 99999 !important;
+      }
+    </style>
+  </head>
+  <body
+    class="dHctZm9udC1zYW5z __variable_e66fe9 __variable_eab306 __variable_9d7c83"
+  >
+    <header
+      class="dHctaC0yNA dHctYm9yZGVyLWI dHctYm9yZGVyLXNsYXRlLTIwMC84MA dHctYmctd2hpdGU"
+    >
+      <div
+        class="dHctbXgtYXV0bw dHctbWF4LXctc2NyZWVuLXhs dHctcHgtNQ sm:dHctcHgtNg lg:dHctcHgtOA dHctZmxleA dHctaC1mdWxs dHctdy1mdWxs dHctaXRlbXMtY2VudGVy"
+      >
+        <nav
+          class="dHctcmVsYXRpdmU dHctei01MA dHctZmxleA dHctdy1mdWxs dHctaXRlbXMtY2VudGVy dHctanVzdGlmeS1iZXR3ZWVu"
+          style="font-family: 'Varela Round' !important;"
+        >
+          <div class="dHctZmxleA dHctc2hyaW5rLTA dHctaXRlbXMtY2VudGVy">
+            <a
+              aria-label="Home"
+              class="dHctZmxleA dHctZmxleC1zaHJpbmstMA dHctaXRlbXMtY2VudGVy"
+              href="#/"
+              ><img
+                alt=""
+                class="dHctaC04 dHctdy1hdXRv sm:dHctaC05 md:dHctaGlkZGVu lg:dHctYmxvY2s lg:dHctaC0xMA"
+                style="width: 190px!important;height: 85px;"
+                src="{{url_for('static', filename='SketchArt.png')}}"/><img
+                alt=""
+                class="dHctaGlkZGVu dHctaC04 dHctdy1hdXRv md:dHctYmxvY2s lg:dHctaGlkZGVu"
+                style="color: transparent"
+                src="{{url_for('static', filename='SketchArt.png')}}"
+            /></a>
+          </div>
+          <div class="dHctZmxleA dHctaXRlbXMtY2VudGVy">
+            <a
+              class="dHctaW5saW5lLWZsZXg dHctaXRlbXMtY2VudGVy dHctcm91bmRlZC1mdWxs dHctZ2FwLTI.5 dHctanVzdGlmeS1jZW50ZXI dHctcHgtNw dHctcHktMw dHctdGV4dC1tZA dHctZm9udC1zZW1pYm9sZA dHctbGVhZGluZy1ub25l dHctb3V0bGluZS1vZmZzZXQtMg dHctdHJhbnNpdGlvbi1hbGw dHctZHVyYXRpb24tMjAw dHctZWFzZS1pbi1vdXQ active:dHctdHJhbnNpdGlvbi1ub25l dHctdGV4dC1zbGF0ZS05MDA dHctc2hhZG93LXNt dHctc2hhZG93LXNreS0xMDAvNTA dHctcmluZy0x dHctcmluZy1zbGF0ZS0xMDA hover:dHctYmctc2xhdGUtMjAwLzYw hover:dHctc2hhZG93LXNreS0xMDAvNTA dHctYmctc2xhdGUtMTAwLzgw"
+              href="#"
+              >Sketch your Art</a
+            >
+            <div class="dHctbWwtNA md:dHctaGlkZGVu">
+              <div data-headlessui-state="">
+                <button
+                  class="dHctZ3JvdXA dHctcmVsYXRpdmU dHctei01MA dHctZmxleA dHctY3Vyc29yLXBvaW50ZXI dHctaXRlbXMtY2VudGVy dHctanVzdGlmeS1jZW50ZXI dHctcm91bmRlZC1mdWxs dHctYmctc2xhdGUtMTAwLzgw dHctcC0z dHctc2hhZG93LXNt dHctc2hhZG93LXNreS0xMDAvNTA dHctcmluZy0x dHctcmluZy1zbGF0ZS05MDAvNQ dHctdHJhbnNpdGlvbg dHctZHVyYXRpb24tMzAw dHctZWFzZS1pbi1vdXQ hover:dHctYmctc2xhdGUtMjAwLzYw focus:dHctb3V0bGluZS1ub25l md:dHctaGlkZGVu"
+                  aria-label="Toggle Navigation"
+                  type="button"
+                  aria-expanded="false"
+                  data-headlessui-state=""
+                  id="headlessui-popover-button-:R2rda:"
+                >
+                  <span class="dHctcmVsYXRpdmU dHctaC0z.5 dHctdy00"
+                    ><span
+                      class="dHctYWJzb2x1dGU dHctYmxvY2s dHctaC0w.5 dHctcm90YXRlLTA dHctdHJhbnNmb3Jt dHctcm91bmRlZC1mdWxs dHctYmctc2xhdGUtNzAw dHctb3BhY2l0eS0xMDA dHctdHJhbnNpdGlvbi1hbGw dHctZHVyYXRpb24tMzAw dHctZWFzZS1pbi1vdXQ group-hover:dHctYmctc2xhdGUtOTAw dHctbGVmdC0w dHctdG9wLTA dHctdy1mdWxs"
+                    ></span
+                    ><span
+                      class="dHctYWJzb2x1dGU dHctbGVmdC0w dHctdG9wLTE.5 dHctYmxvY2s dHctaC0w.5 dHctdy1mdWxs dHctdHJhbnNmb3Jt dHctcm91bmRlZC1mdWxs dHctYmctc2xhdGUtNzAw dHctb3BhY2l0eS0xMDA dHctdHJhbnNpdGlvbi1hbGw dHctZHVyYXRpb24tMzAw dHctZWFzZS1pbi1vdXQ group-hover:dHctYmctc2xhdGUtOTAw dHctcm90YXRlLTA"
+                    ></span
+                    ><span
+                      class="dHctYWJzb2x1dGU dHctbGVmdC0w dHctdG9wLTE.5 dHctYmxvY2s dHctaC0w.5 dHctdy1mdWxs dHctdHJhbnNmb3Jt dHctcm91bmRlZC1mdWxs dHctYmctc2xhdGUtNzAw dHctb3BhY2l0eS0xMDA dHctdHJhbnNpdGlvbi1hbGw dHctZHVyYXRpb24tMzAw dHctZWFzZS1pbi1vdXQ group-hover:dHctYmctc2xhdGUtOTAw dHctcm90YXRlLTA"
+                    ></span
+                    ><span
+                      class="dHctYWJzb2x1dGU dHctYmxvY2s dHctaC0w.5 dHctcm90YXRlLTA dHctdHJhbnNmb3Jt dHctcm91bmRlZC1mdWxs dHctYmctc2xhdGUtNzAw dHctb3BhY2l0eS0xMDA dHctdHJhbnNpdGlvbi1hbGw dHctZHVyYXRpb24tMzAw dHctZWFzZS1pbi1vdXQ group-hover:dHctYmctc2xhdGUtOTAw dHctbGVmdC0w dHctdG9wLTM dHctdy1mdWxs"
+                    ></span
+                  ></span>
+                </button>
+              </div>
+              <div
+                style="
+                  position: fixed;
+                  top: 1px;
+                  left: 1px;
+                  width: 1px;
+                  height: 0;
+                  padding: 0;
+                  margin: -1px;
+                  overflow: hidden;
+                  clip: rect(0, 0, 0, 0);
+                  white-space: nowrap;
+                  border-width: 0;
+                  display: none;
+                "
+              ></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section
+      class="dHctcmVsYXRpdmU dHctcHktMjA dHctb3ZlcmZsb3ctaGlkZGVu lg:dHctcHktMjQ"
+    >
+      <svg
+        width="1728"
+        height="894"
+        viewBox="0 0 1728 894"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="dHctYWJzb2x1dGU dHctaW5zZXQteC0w dHctdy1hdXRv dHctdG9wLTU2 lg:dHctaW5zZXQteS0w"
+      >
+        <g clip-path="url(#clip0_8_95)">
+          <g opacity="0.6" filter="url(#filter0_f_8_95)">
+            <path
+              d="M201.4 582.997H330V342.155L23 501.52L201.4 582.997Z"
+              fill="#60A5FA"
+              fill-opacity="0.45"
+            ></path>
+            <path
+              d="M330 342.155V284H90H-70L23 501.52L330 342.155Z"
+              fill="#7DD3FC"
+              fill-opacity="0.8"
+            ></path>
+            <path
+              d="M-70 582.997H201.4L23 501.52L-70 284V582.997Z"
+              fill="#F0FDFA"
+              fill-opacity="0.5"
+            ></path>
+          </g>
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_8_95"
+            x="-370"
+            y="-16"
+            width="1000"
+            height="898.997"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+            <feblend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            ></feblend>
+            <fegaussianblur
+              stdDeviation="150"
+              result="effect1_foregroundBlur_8_95"
+            ></fegaussianblur>
+          </filter>
+          <clippath id="clip0_8_95">
+            <rect width="1728" height="894" fill="white"></rect>
+          </clippath>
+        </defs>
+      </svg>
+      <div
+        class="dHctbXgtYXV0bw dHctbWF4LXctc2NyZWVuLXhs dHctcHgtNQ sm:dHctcHgtNg lg:dHctcHgtOA dHctcmVsYXRpdmU dHctei0xMA dHctZ3JpZA dHctaXRlbXMtY2VudGVy dHctZ2FwLTE2 lg:dHctZ3JpZC1jb2xzLTI lg:dHctZ2FwLTg"
+      >
+        <div
+          class="dHctZmxleA dHctZmxleC1jb2w dHctaXRlbXMtY2VudGVy dHctbWF4LXctMnhs dHctbXgtYXV0bw lg:dHctaXRlbXMtc3RhcnQ"
+        >
+          <h1 style="font-family: 'Lexend';"
+            class="dHctdGV4dC01eGw dHctZm9udC1zZW1pYm9sZA dHctdGV4dC1jZW50ZXI dHctZm9udC1kaXNwbGF5 dHctdGV4dC1zbGF0ZS05MDA sm:dHctdGV4dC02eGw lg:dHctdGV4dC1sZWZ0"
+          >Start
+            <span class="dHctcmVsYXRpdmU dHctd2hpdGVzcGFjZS1ub3dyYXA"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="249"
+                height="22"
+                viewBox="0 0 249 22"
+                fill="#00e00f !important"
+                class="dHctYWJzb2x1dGU dHctbGVmdC0w dHctdG9wLTIvMw dHctaC0[0.6em] dHctdy1mdWxs dHctZmlsbC1za3ktMjAwLzc1"
+              >
+                <path
+                  d="M247.564 18.5807C241.772 13.3568 232.473 12.7526 225.225 11.4427C217.124 9.97395 208.996 8.57031 200.846 7.46093C186.542 5.51302 172.169 4.08854 157.79 3.01562C126.033 0.645827 94.0929 0.0338481 62.3387 2.36979C42.1785 3.85416 22.008 5.90885 2.32917 10.8463C-0.0155171 11.4349 0.207047 14.6719 2.6889 14.7083C22.0261 14.9896 41.3866 12.6406 60.7109 11.8568C79.9471 11.0807 99.2274 10.6719 118.484 10.9557C142.604 11.3125 166.719 12.8333 190.722 15.5156C199.956 16.5469 209.195 17.6016 218.411 18.8255C227.864 20.0807 237.259 22 246.767 20.7422C247.709 20.6198 248.426 19.3568 247.564 18.5807Z"
+                ></path></svg
+              ><span class="dHctcmVsYXRpdmU">Brushing</span></span
+            >
+            <!-- -->Your Potraits With Us!!
+          </h1>
+          <p style="font-family: 'Varela Round';"
+            class="dHctbXQtNg dHctdGV4dC1sZw dHctbGVhZGluZy04 dHctdGV4dC1jZW50ZXI dHctdGV4dC1zbGF0ZS03MDA lg:dHctdGV4dC1sZWZ0"
+          >
+          A Tool to give your Memories a Sketchy Look 😁 !!!
+          </p>
+          <div
+            class="dHctZmxleA dHctZmxleC13cmFw dHctaXRlbXMtY2VudGVy dHctanVzdGlmeS1jZW50ZXI dHctbXQtMTA dHctZ2FwLXgtMTA dHctZ2FwLXktNg lg:dHctanVzdGlmeS1zdGFydA"
+          >
+            <a style="font-family: 'Varela Round';"
+              class="dHctaW5saW5lLWZsZXg dHctaXRlbXMtY2VudGVy dHctcm91bmRlZC1mdWxs dHctZ2FwLTI.5 dHctanVzdGlmeS1jZW50ZXI dHctcHgtNw dHctcHktMw dHctdGV4dC1tZA dHctZm9udC1zZW1pYm9sZA dHctbGVhZGluZy1ub25l dHctb3V0bGluZS1vZmZzZXQtMg dHctdHJhbnNpdGlvbi1hbGw dHctZHVyYXRpb24tMjAw dHctZWFzZS1pbi1vdXQ active:dHctdHJhbnNpdGlvbi1ub25l dHctYmctc2xhdGUtOTAw dHctdGV4dC13aGl0ZQ hover:dHctYmctc2t5LTgwMA dHctaC0xMQ"
+              href=""
+              >Sketch Now</a>
+            <div class="dHctZmxleA dHctZ2FwLTM sm:dHctZ2FwLTQ">
+            </div>
+          </div>
+        </div>
+        <div class="dHctdy1mdWxs dHctbWF4LXctbGc dHctbXgtYXV0bw lg:dHctbXItMA">
+          <div
+            class="dHctcmVsYXRpdmU dHctYXNwZWN0LWgtNQ dHctYXNwZWN0LXctNA dHctcm91bmRlZC0yeGw dHctYmctc2xhdGUtNTA">
+            <img src="{{url_for('static', filename='image.png')}}" style="border-radius: 12px;" alt="">
+        </div>
+        </div>
+      </div>
+  
+  </body>
+</html>
