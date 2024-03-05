@@ -16,14 +16,14 @@
 ### 1. Installing 
 
 - Run requirements.txt in your terminal
-```
-pip install -r requirements.txt
-```
+    ```
+        pip install -r requirements.txt
+    ```
 
 - Or 
 
-```
-pip3 install -r requirements.txt
-```
+    ```
+    pip3 install -r requirements.txt
+    ```
 
-if working on `Linux` or `Mac`
+    if working on `Linux` or `Mac`
