@@ -27,3 +27,19 @@
     ```
 
     if working on `Linux` or `Mac`
+
+### 2. Run 
+
+- Run `main.py` file
+    - Either use the command 
+        ```
+            python main.py
+        ```
+        on `windows`
+
+        ```
+            python3 main.py
+        ```
+        on `Linux` and `Macos`
+    
+    - Or simply click on `run` icon in `VS Code`
