@@ -43,3 +43,6 @@
         on `Linux` and `Macos`
     
     - Or simply click on `run` icon in `VS Code`
+
+> [!WARNING]  
+> Make sure that no other Program is using the `port: 5000`
