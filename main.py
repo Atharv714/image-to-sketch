@@ -49,15 +49,15 @@ def uploaded_file(filename):
 def delete_image():
     uploaded_image_path = os.path.join(app.config['UPLOAD_FOLDER'], 'result.jpg')
     
-    # Get the original image path from the request
+
     original_image_name = request.form.get('original_image')
     original_image_path = os.path.join(app.config['UPLOAD_FOLDER'], original_image_name)
 
-    # Delete the uploaded image
+
     if os.path.exists(uploaded_image_path):
         os.remove(uploaded_image_path)
 
-    # Delete the original image
+
     if original_image_name and os.path.exists(original_image_path):
         os.remove(original_image_path)
 
